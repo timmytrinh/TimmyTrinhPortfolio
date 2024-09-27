@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #403c3c;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -116,7 +116,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #585858;
+		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -145,13 +145,13 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #585858;
+		color: #ffe880;
 		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #ffd000 !important;
 		}
 
 	strong, b {
@@ -260,7 +260,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 4px #c9c9c9;
+		border-left: solid 4px #ffd000;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -1856,12 +1856,12 @@ input, select, textarea {
 			}
 
 			.icon.style2:hover {
-				color: #f2849e;
-				border-color: #f2849e;
+				color: #ffd000;
+				border-color: #ffd000;
 			}
 
 			.icon.style2:active {
-				background-color: rgba(242, 132, 158, 0.1);
+				background-color: rgba(255, 208, 0, 0.1);
 			}
 
 /* List */
@@ -2170,8 +2170,8 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-bottom-color: #f2849e;
-			box-shadow: inset 0 -1px 0 0 #f2849e;
+			border-bottom-color: #ffd000;
+			box-shadow: inset 0 -1px 0 0 #ffd000;
 		}
 
 	select {
@@ -2185,7 +2185,7 @@ input, select, textarea {
 	}
 
 		select option {
-			background: #ffffff;
+			background: #1f1f1f;
 		}
 
 		select:focus::-ms-value {
@@ -2225,7 +2225,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #585858;
+			color: #ffffff;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2267,16 +2267,16 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #585858;
-			border-color: #585858;
-			color: #ffffff;
+			background: #ffffff;
+			border-color: #ffffff;
+			color: #585858;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #f2849e;
-			box-shadow: 0 0 0 1px #f2849e;
+			border-color: #878787;
+			box-shadow: 0 0 0 1px #878787;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2455,8 +2455,8 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 4px;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #585858;
-		color: #585858 !important;
+		box-shadow: inset 0 0 0 2px #ffffff;
+		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -2494,8 +2494,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f2849e !important;
-			box-shadow: inset 0 0 0 2px #f2849e;
+			color: #ffd000 !important;
+			box-shadow: inset 0 0 0 2px #ffd000;
 		}
 
 		input[type="submit"]:active,
@@ -2503,7 +2503,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(242, 132, 158, 0.1);
+			background-color: rgba(255, 208, 0, 0.1);
 		}
 
 		input[type="submit"].small,
@@ -2528,7 +2528,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			box-shadow: none;
-			background-color: #585858;
+			background-color: #1f1f1f;
 			color: #ffffff !important;
 		}
 
@@ -2537,7 +2537,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #f2849e;
+				background-color: #ffd000;
 			}
 
 			input[type="submit"].primary:active,
@@ -2545,7 +2545,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #ee5f81;
+				background-color: #878787;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2682,7 +2682,7 @@ input, select, textarea {
 				}
 
 				.tiles article > a:hover {
-					color: #ffffff !important;
+					color: #ffd000 !important;
 				}
 
 				.tiles article > a h2 {
@@ -2988,7 +2988,7 @@ input, select, textarea {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
+		background: #1f1f1f;
 		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
@@ -3166,7 +3166,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		background-color: #1f1f1f;
 	}
 
 		#footer > .inner {
