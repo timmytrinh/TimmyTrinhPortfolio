@@ -200,7 +200,7 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0 0 2em 0;
 
-		letter-spacing: -2em;
+		letter-spacing: 0em;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
